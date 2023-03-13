@@ -19,7 +19,7 @@ Se você tiver um conjunto existente de princípios de desenvolvimento de softwa
 - O princípio de Hollywood (não nos ligue, nós ligamos para você).
 - Alta coesão, baixo acoplamento.
 - Siga [SOLID](http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) (princípio de responsabilidade única, princípio aberto/fechado, princípio de substituição de Liskov, princípio de segregação de interface, princípio de inversão de dependência).
-- DRY (não se repita).
+- DRY (Não se repita).
 - KISS (Keep it Simple).
 - Certifique-se de que todos os componentes sejam sem estado (por exemplo, para facilitar o dimensionamento).
 - Prefira um modelo de domínio rico.

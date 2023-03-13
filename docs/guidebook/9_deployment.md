@@ -1,4 +1,4 @@
-# Implantação
+# Instalação
 
 A seção de implantação é simplesmente o mapeamento entre o software e a infraestrutura.
 
