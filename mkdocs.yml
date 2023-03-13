@@ -1,0 +1,71 @@
+site_name: SCADIAgro Docs
+nav:
+  - Home: index.md
+  - Guidebook:
+      - guidebook/1_context.md
+      - guidebook/2_functional_overview.md
+      - guidebook/3_quality_attributes.md
+      - guidebook/4_constraints.md
+      - guidebook/5_principles.md
+      - guidebook/6_software_architecture.md
+      - guidebook/7_code.md
+      - guidebook/8_infrastructure_architecture.md
+      - guidebook/9_deployment.md
+      - guidebook/10_operation_and_support.md
+      - guidebook/11_development_environment.md
+      - guidebook/12_decision_log.md
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/james-willett
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/TheJamesWillett
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/willettjames/
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright: |
+  &copy; 2023 <a href=""  target="_blank" rel="noopener">SCADIAgro</a>
